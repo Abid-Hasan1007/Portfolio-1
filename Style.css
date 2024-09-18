@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .personal{
+    margin-left: 40px;
+    padding: 20px;
+}
+
+header .navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 30px;
+}
+header .navbar ul{
+    list-style: none;
+
+}
+header .navbar ul li{
+    float: left;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+header .navbar ul li a{
+    text-decoration: none;
+    color: rgb(53, 52, 52);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+header .navbar ul li a:hover{
+    color: #7f97ff;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: rgba(0,0,0,0.9);
+    float: right;
+    line-height: 80px;
+    margin-right: 0px;
+}
+#check{
+    display: none;
+}
+/*Section1 start*/
+.section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.name, .img1{
+    width: 50%;
+    margin-top: 30px;
+    
+}
+.name{
+    margin-left: 80px;
+    margin-bottom: 120px;
+    
+}
+.img1{
+    padding-right: 160px;
+   
+}
+.img1 img{
+    max-width: 100%;
+    height: auto;
+}
+.name h3{
+    font-weight: normal;
+    color: #222222;
+    font-size: 15px;
+    font-family: popins ,sans-serif;
+
+}
+.name h1{
+    font-size: 60px;
+    padding-top: 30px;
+}
+.name p{
+    color: rgba(78, 73, 73, 0.7);
+    padding-top: 30px;
+}
+.name input{
+   padding: 8px 20px;
+   outline: none;
+   color: white;
+   border: none;
+   font-size: 15px;
+   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+}
+.name input:hover{
+    box-shadow: 0px 20px 30px rgba(130,147,255, 0.5);
+    transition: all 0.5s ease-in 0s;
+    outline: none;
+    cursor: pointer;
+}   
+/*section1 end*/
+
+/*section2 start*/
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 div{
+    width: 40%;
+    margin: 0px auto;
+}
+.section .about img{
+    max-width: 100%;
+    height: auto;
+}
+.about img{
+    max-width: 100%;
+    height: auto;
+}
+.details h3{
+    font-weight: normal;
+    color: rgba(0,0,0,0.7);
+    font-size: 15px;
+}
+.details h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.details p{
+    font-size: 16px;
+    color: rgba(0,0,0,0.6);
+    width: 80%;
+}
+.section2 input{
+    font-size: 15px;
+    padding: 8px 20px;
+    outline: none;
+    color: white;
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    border: none;
+}
+.section2 input:hover{
+    box-shadow: 0px 20px 30px rgba(130,147,255, 0.5);
+    transition: all 0.5s ease-in 0s;
+    outline: none;
+    cursor: pointer; 
+}
+
+/*section2 end*/
+/*section3 start*/
+.section3{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+.services h1{
+    font-size: 35px;
+    line-height: 60px;
+}
+.services p{
+    width: 670px;
+    color: rgba(78, 73, 73, 0.7);
+    margin: 0 auto;
+}
+.web{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.service1{
+    width: 100%;
+    overflow: hidden;
+   
+}
+.service1:last-child{
+    padding-top: 30px;
+}
+.service1 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+   
+    
+}
+.web i{
+    font-size: 30px;
+    color: rgba(0,0,0,0.7);
+}
+.web h1{
+    color: rgba(0,0,0,0.85);
+    padding: 30px;
+}
+.web p{
+    color: rgba(0,0,0,0.6);
+}
+.service1 div:hover{
+    background-color: #8293ff;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+   
+}
+.service1 div:hover p{
+    background-color: #8293ff;
+    color: white;
+    border-radius: 15px;
+    transition: all 0.3s ease-in;
+}
+.service1 div:hover h1{
+    background-color: #8293ff;
+    color: white;
+    border-radius: 15px;
+    transition: all 0.3s ease-in;
+}
+.service1 div:hover i{
+    background-color: #8293ff;
+    color: white;
+    border-radius: 15px;
+    transition: all 0.3s ease-in;
+}
+
+
+/*section3 end*/
+/*section4 start*/
+.section4{
+    width: 100%;
+    height: 300px;
+    background-color: #8293ff;
+    color: white;
+    margin-top: 500px;
+    text-align: center;
+    
+}
+.section4 .num1{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 135px;
+    left: 150px;
+    text-align: center;
+  
+}
+.section4 .num1 h1{
+    font-size: 40px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+/*section4 end*/
+/*section5 start*/
+.portfolio{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+.portfolio .featured{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.featured h1{
+    font-size: 35px;
+    color: rgba(0,0,0,0.9);
+}
+.portfolio .featured p{
+    color: rgba(0,0,0,0.7);
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.portfolio .products{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.portfolio .products div{
+    width: 340px;
+    height: 339px;
+    padding-bottom: 400px;
+    text-align: center;
+    
+}
+.portfolio figure{
+    background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%);
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+    
+}
+.portfolio figure:hover img{
+    opacity: 0.3;
+    transition: all 0.3s ease-in-out;
+}
+.portfolio .products h1{
+    font-size: 18px;
+    line-height: 1.8rem;
+}
+.portfolio .products p{
+    color: rgba(0,0,0,0.6);
+}
+/*section5 end*/
+/*section6 start*/
+.section6{
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+    margin-bottom: 200px;
+}
+.section6 .plan{
+    text-align: center;
+    padding: 2% 0;
+    margin-bottom: 50px;
+}
+.section6 .plan h1{
+    font-size: 40px;
+    line-height:70px;
+    padding-top: 15px;
+   
+}
+.section6 .plan p{
+    color: rgba(0,0,0,0.7);
+}
+.section6 .prices{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section6 .card1{
+    width: 300px;
+    height: 600px;
+    background-color: rgb(249,249,255);
+    text-align: center;
+    
+    border: 1px solid rgba(0,0,0,0.05);
+}
+.section6 .card1 h1{
+    font-size: 40px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   
+  
+}
+.section6 .card1 input{
+    outline: none;
+    background-color: #8293ff;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.section6 .card1:hover{
+    background-color: #8293ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.section6 .card1 h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.section6 .card1 p{
+   padding: 15px;
+    text-align: center;
+    
+}
+.section6 .card1:hover input{
+    color: rgba(0,0,0,0.9);
+    background-color: white;
+}
+.section6 .card1 .amount{
+    font-size: 35px;
+}
+.section6 .card1 .p1{
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+/*section6 end*/
+/*footer start*/
+footer{
+    width: 100%;
+    background-color: rgb(4, 9, 30);
+    height: 400px;
+    position: absolute;
+    color: white;
+}
+footer .footer1{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 10px;
+}
+footer .footer1 .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .footer1 .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+    border-radius: 25px;
+}
+footer .footer1 .foot1 button{
+    font-size: 18px;
+    color: white;
+    background-color: #8293ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+footer .footer1 .foot1 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .footer1 .foot1 i:hover{
+    color: #7f97ff;
+}
+/*footer end*/
+
+@media (max-width:768px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    header .personal{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    .checkbtn{
+        display: block;
+    }
+
+    header .navbar ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #f9f9ff;
+        top: 54px;
+        left: -200%;
+        transition: all .1s;
+    }
+    header .navbar ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+
+    }
+    .section1{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .name{
+        margin: auto;
+        padding: 0px;
+    }
+    .name h3{
+        font-size: 12px;
+    }
+    .name h1{
+        font-size: 30px;
+    }
+    .img1 img{
+        margin-left: 160px;
+        margin-top: 30px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section2{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        top: 150px;
+        position: relative;
+    }
+    .section2 .about img{
+        position: relative;
+        right: -70px;
+    }
+    .section2 div{
+        width: 100%;
+    }
+    .details{
+        position: relative;
+        left: 15px;
+        text-align: center !important;
+    }
+    .details h1{
+        font-size: 12px;
+        color: rgba(0,0,0,0.8);
+    }
+    .details h3{
+        font-size: 30px;
+        color: rgba(0,0,0,0.9);
+    }
+    .details p{
+        font-size: 15px;
+        color: rgba(0,0,0,0.9);
+        margin-left: 50px !important;
+    }
+    .section3{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 50px;
+    }
+    .services > h1{
+        font-size: 30px;
+        color: rgba(0,0,0,0.9);
+
+    }
+    .services  p{
+       width: 80%; 
+    }
+    .web div, .service1 .icon{
+        clear: left;
+        position: relative;
+        width: 100%;
+        height: auto;
+        
+    }
+    .section4{
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        top: -250px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .section4 .num1{
+        clear: left;
+        text-align: center;
+        padding: 20px;
+        margin-left: 100px;
+    }
+    .portfolio{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: -200px;
+    }
+    .section6 .plan h1{
+        font-size: 35px;
+    }
+    .section6 .plan p{
+        width: 80%;
+        margin: auto;
+    }
+    .section6 .prices{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+       left: 170px;
+    }
+    .card1{
+        margin-top: 50px;
+    } 
+    footer{
+        width: 100%;
+        height: 60vh;
+        position: relative;
+        top: 120em;
+    }
+    footer .footer1{
+        display: block;
+        position: relative;
+        top: 100px;
+    }
+    
+ 
+    
+
+
+}
